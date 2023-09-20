@@ -16,5 +16,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // turn off error when configuring props for threejs tags
+    "react/no-unknown-property": ["off", { "ignore": ["JSX"] }],
   },
 }

@@ -2,7 +2,6 @@ import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 
 import { styles } from '../styles'
-import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from "../utils/motion"
@@ -27,15 +26,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="green-pink-gradient w-15 h-10 rounded-2xl flex justify-center items-center cursor-pointer"
             >
-              <img 
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
+              <p className="text-[12px] p-2 font-bold">Check it out!</p>
             </div>
-            {/* can add another div here for link to deployment */}
           </div>
         </div>
 
@@ -69,7 +63,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          these projects like i finished them or are working on them and stuff
+          Aside from internships, I like to complete personal projects on my own to expand upon my skills and better understand all the software engineering tools available. In addition to this current website, here are two more projects that I have. One is currently deployed and one is in progress. 
         </motion.p>
       </div>
 
@@ -81,6 +75,10 @@ const Works = () => {
             {...project}
           />
         ))}
+      </div>
+
+      <div className="text-center">
+        <h1 className="font-black text-white lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-8">For more details on anything I am working on, check out my <span onClick={() => window.open("https://github.com/tbelleza", "_blank")} className="text-[#915eff] cursor-pointer underline">Github</span></h1>
       </div>
     </>
   )

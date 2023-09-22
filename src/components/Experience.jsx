@@ -56,6 +56,10 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
+
+      <div className="text-center">
+        <h1 className="font-black text-white lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-8">For more details on my experience, check out my <span onClick={() => window.open("https://www.linkedin.com/in/theresabelleza/", "_blank")} className="text-[#915eff] cursor-pointer underline">LinkedIn</span></h1>
+      </div>
     </>
   )
 }

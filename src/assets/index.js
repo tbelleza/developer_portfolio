@@ -20,13 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png"
+import cpp from "./tech/c++.png"
+import jest from './tech/jest.png'
+import cypress from './tech/cypress.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import wrench from "./company/wrench.png"
+import ridgeline from "./company/ridgeline.svg"
+import nevadanano from "./company/nevadanano.png"
 
 import carrent from "./carrent.png";
+import scratch from './scratch.png'
+import threador from './threador.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -52,11 +57,16 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  python,
+  cpp,
+  jest,
+  cypress,
+  wrench,
+  ridgeline,
+  nevadanano,
   carrent,
+  scratch,
   jobit,
+  threador,
   tripguide,
 };

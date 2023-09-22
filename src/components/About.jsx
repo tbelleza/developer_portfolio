@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a Software Engineer. ???
+        I have academic and working experience in various STEM industries. Through my expericences, I became a well-rounded engineer and acquired skills in the following:
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

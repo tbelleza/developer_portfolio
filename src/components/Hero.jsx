@@ -17,6 +17,9 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Software Engineer who utilizes various tools to solve problems and transform ideas into reality!
           </p>
+          <p className='mt-4 text-secondary text-[17px]'>
+            Welcome to my portfolio. A lot of parts are interactive so feel free to click, drag, hover, and have fun!
+          </p>
         </div>
       </div>
 

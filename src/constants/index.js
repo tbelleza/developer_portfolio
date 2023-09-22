@@ -151,9 +151,9 @@ import {
       points: [
         "Contributed to the development and manufacturing of sensor modules for commercial applications, specifically, Internet of Things (IoT) enabled distributed gas sensing",
         "Developed a UI for downloading data from sensor modules",
-        "Scripted automated testing and updating of multiple sensors at once",
+        "Automated nightly firmware updating and testing of multiple sensors at once",
         "Scripted tests for internal software tools to safeguard the product's integrity",
-        "Built a way to wirelessly transfer data from sensors to the web using a Wi-Fi connected microcontroller, webhooks, and Google Apps Script",
+        "Built a system to wirelessly transfer data from sensors to the web using a Wi-Fi connected microcontroller, webhooks, and Google Apps Script",
       ],
     },
     {

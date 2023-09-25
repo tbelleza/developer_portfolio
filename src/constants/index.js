@@ -176,7 +176,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "References are available upon request. I have a reference avaiable for every company that I have worked for. Fill out the contact form below and let me know what you would like to hear more about.",
+        "References are available upon request. I have a reference available for every company that I have worked for. Fill out the contact form below and let me know what you would like to hear more about.",
       name: "",
       designation: "",
       company: "",

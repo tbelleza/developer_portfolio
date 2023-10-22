@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div className="h-fit">
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className="text-[#915eff]">Theresa</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Software Engineer who utilizes various tools to solve problems and transform ideas into reality!
@@ -20,10 +20,11 @@ const Hero = () => {
           <p className='mt-4 text-secondary text-[17px]'>
             Welcome to my portfolio. A lot of parts are interactive so feel free to click, drag, hover, and have fun!
           </p>
+          <div className="h-[500px]">
+            <ComputersCanvas />
+          </div>
         </div>
       </div>
-
-      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
